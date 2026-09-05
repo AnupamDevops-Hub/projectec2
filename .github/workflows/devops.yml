@@ -23,7 +23,7 @@ jobs:
           key: ${{ secrets.EC2_SSH_KEY }}
           script: |
             # 1. Move into your project directory on the server
-            cd ~/node-cicd-demo/projectec2 || cd ~/node-cicd-demo
+            cd ~/node-cicd-ec2/projectec2 || cd ~/node-cicd-ec2
 
             # 2. Automatically pull the new changes
             git pull origin main
