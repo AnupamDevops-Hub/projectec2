@@ -4,7 +4,7 @@ const port = process.env.PORT || 3000;
 
 app.get('/', (req, res) => {
   res.json({ 
-    message: 'Hello World! The deployment is successful.' 
+    message: 'Hello World! .' 
   });
 });
 
